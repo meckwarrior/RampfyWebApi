@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{D1E69413-CB65-4801-A794-68F557429006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampfyWebApi.Api", "src\RampfyWebApi.Api\RampfyWebApi.Api.csproj", "{21D552B2-DE41-45DA-93D1-6D0024783621}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{B715B583-BE3E-4999-8195-B132AD87F215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{19E94DA8-E138-4EBC-8C2A-4B38E07D4075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{74394320-C98A-4F3A-9F6A-C29FAB2445CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{64FE5618-7C3F-4B56-89C7-14E2EE0E76F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampfyWebApi.Infra.Data", "src\RampfyWebApi.Infra.Data\RampfyWebApi.Infra.Data.csproj", "{DC6F9449-2B0E-4934-90DB-5780955D0DD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampfyWebApi.Domain", "src\RampfyWebApi.Domain\RampfyWebApi.Domain.csproj", "{26EF3D44-9335-4FA2-96CA-6E3E7C2DA9FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampfyWebApi.Application", "src\RampfyWebApi.Application\RampfyWebApi.Application.csproj", "{3E8252E9-8957-4C61-914E-DFD3537CAB93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21D552B2-DE41-45DA-93D1-6D0024783621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D552B2-DE41-45DA-93D1-6D0024783621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D552B2-DE41-45DA-93D1-6D0024783621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D552B2-DE41-45DA-93D1-6D0024783621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6F9449-2B0E-4934-90DB-5780955D0DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6F9449-2B0E-4934-90DB-5780955D0DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6F9449-2B0E-4934-90DB-5780955D0DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6F9449-2B0E-4934-90DB-5780955D0DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EF3D44-9335-4FA2-96CA-6E3E7C2DA9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EF3D44-9335-4FA2-96CA-6E3E7C2DA9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EF3D44-9335-4FA2-96CA-6E3E7C2DA9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EF3D44-9335-4FA2-96CA-6E3E7C2DA9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8252E9-8957-4C61-914E-DFD3537CAB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8252E9-8957-4C61-914E-DFD3537CAB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8252E9-8957-4C61-914E-DFD3537CAB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8252E9-8957-4C61-914E-DFD3537CAB93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21D552B2-DE41-45DA-93D1-6D0024783621} = {D1E69413-CB65-4801-A794-68F557429006}
+		{64FE5618-7C3F-4B56-89C7-14E2EE0E76F2} = {74394320-C98A-4F3A-9F6A-C29FAB2445CE}
+		{DC6F9449-2B0E-4934-90DB-5780955D0DD7} = {64FE5618-7C3F-4B56-89C7-14E2EE0E76F2}
+		{26EF3D44-9335-4FA2-96CA-6E3E7C2DA9FE} = {19E94DA8-E138-4EBC-8C2A-4B38E07D4075}
+		{3E8252E9-8957-4C61-914E-DFD3537CAB93} = {B715B583-BE3E-4999-8195-B132AD87F215}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05A9EA61-37BE-4268-8C8F-322ABFBEF006}
+	EndGlobalSection
+EndGlobal
